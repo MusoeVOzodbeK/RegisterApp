@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./register.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 const Register = () => {
   const [register, setRegister] = useState({});
