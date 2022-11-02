@@ -26,7 +26,7 @@ const Login = () => {
   return (
     <div className="login">
       <div className="loginContainer">
-        <FontAwesomeIcon className="icon" icon={faUser} />
+      <i className="icon" class='bx bxs-user'></i>
         <h3>welcome to ........</h3>
         <form onSubmit={handleSubmit}>
           <input
