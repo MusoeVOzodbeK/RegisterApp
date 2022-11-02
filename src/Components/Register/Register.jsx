@@ -23,7 +23,7 @@ const Register = () => {
   return (
     <div className="register">
       <div className="registerContainer">
-	  <i className="icon" class='bx bxs-user-plus'></i>
+	  <i  class='bx bxs-user-plus'></i>
         <h3>welcome to ........</h3>
         <form onSubmit={handleSubmit}>
           <input
